@@ -140,6 +140,6 @@ class DelegateList {
 
     public static void main(String[] args) {
         def d = new DelegateList(['hello', 'bye'])
-        println d.getUppercase()
+        println d.getUppercase() // StackOverflowError
     }
 }
